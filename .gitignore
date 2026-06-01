@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Angular build output
+Frontend/dist/
+Frontend/.angular/cache/
+Frontend/out-tsc/
+Frontend/tmp/
+
+# Environment & secrets
+.env
+.env.*
+*.local
+
+# Claude Code project settings
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
