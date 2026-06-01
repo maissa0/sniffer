@@ -1,0 +1,20 @@
+<!-- BEGIN: angular-agent-rules -->
+# This is an Angular Standalone Project
+
+This project uses Angular 21 with a zoneless architecture and standalone components. APIs and conventions follow the latest Angular patterns. Please ensure all generated code complies with these modern standards rather than older NgModules patterns.
+<!-- END: angular-agent-rules -->
+
+## Application Building Context
+
+Read the following files in order before implementing or making any architectural decision:
+
+1. `context/project-overview.md` — product definition, goals, features, and scope
+2. `context/architecture-context.md` — system structure (services, components), data flow, and state management
+3. `context/ui-context.md` — theme, colors, typography, and component styling conventions
+4. `context/code-standards.md` — Angular implementation rules, naming conventions, and zoneless patterns
+5. `context/ai-workflow-rules.md` — development workflow, scoping rules, and delivery approach
+6. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
+
+Update `context/progress-tracker.md` after each meaningful implementation change.
+
+If implementation changes the architecture, scope , or standards documented in the context files update the relevant file before continuing.
