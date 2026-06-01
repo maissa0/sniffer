@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Set-Location \"c:\\\\tools\\\\sniffer\\\\Frontend\"; npx ng build --configuration development 2>&1 | Where-Object { $_ -match \"ERROR|error|complete|bundle\" } | Select-Object -Last 15)"
+    ]
+  }
+}
